@@ -1,0 +1,111 @@
+@import "@fontsource/poppins";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+padding:0;
+background:#f8fafc;
+font-family:"Poppins",sans-serif;
+overflow-x:hidden;
+color:#1e293b;
+}
+
+*{
+box-sizing:border-box;
+}
+
+.container-custom{
+max-width:1450px;
+margin:auto;
+padding-left:24px;
+padding-right:24px;
+}
+
+.glass{
+background:rgba(255,255,255,.7);
+backdrop-filter:blur(18px);
+border:1px solid rgba(255,255,255,.4);
+}
+
+.page-padding{
+padding-top:70px;
+padding-bottom:70px;
+}
+
+.hero-bg{
+background:
+radial-gradient(circle at top left,#dbeafe,transparent 30%),
+radial-gradient(circle at bottom right,#bfdbfe,transparent 25%),
+linear-gradient(180deg,#ffffff,#eff6ff);
+}
+
+.typewriter {
+overflow:hidden;
+white-space:nowrap;
+border-right:3px solid #2563eb;
+width:0;
+display:inline-block;
+animation:
+typing 3s steps(22,end) forwards,
+blink .7s infinite;
+}
+
+@keyframes typing{
+from{width:0}
+to{width:100%}
+}
+
+@keyframes blink{
+50%{
+border-color:transparent
+}
+}
+
+.animate-partner-scroll{
+animation:partnerScroll 28s linear infinite;
+}
+
+@keyframes partnerScroll{
+0%{
+transform:translateX(0)
+}
+
+100%{
+transform:translateX(-50%)
+}
+}
+
+/* Add these animations to your global CSS file */
+@keyframes gentle-sway {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(5deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes ripple {
+  0% { transform: scale(1); opacity: 0.5; }
+  100% { transform: scale(1.5); opacity: 0; }
+}
+
+.animate-gentle-sway {
+  animation: gentle-sway 3s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-ripple {
+  animation: ripple 2s ease-out infinite;
+}
