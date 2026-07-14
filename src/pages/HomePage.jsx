@@ -2,14 +2,14 @@
 
 import React from "react";
 
-import HeroSection from "../pages/home/HeroSection";
+import HeroSection from "../pages/Home/HeroSection";
 import Description from "./Home/Description";
 
-import InsuranceType from "../pages/home/InsuranceType";
-import OtherInsurance from "../pages/home/OtherInsurance";
+import InsuranceType from "../pages/Home/InsuranceType";
+import OtherInsurance from "../pages/Home/OtherInsurance";
 import OurPartners from "./Home/OurPartners";
-import UniqueStrengths from "../pages/home/UniqueStrengths";
-import WorkProcess from "../pages/home/WorkProcess";
+import UniqueStrengths from "../pages/Home/UniqueStrengths";
+import WorkProcess from "../pages/Home/WorkProcess";
 import Enquiry from "./Home/Enquiry";
 
 import {
