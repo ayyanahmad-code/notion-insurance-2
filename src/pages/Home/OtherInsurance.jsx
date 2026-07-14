@@ -34,7 +34,7 @@ const otherInsurance = [
   { title: "Cancer", sub: "Health Plan", icon: <FaRibbon />, link: "/insurances" },
 ];
 
-const OtherInsurance = () => {
+const     OtherInsurance = () => {
   return (
     <section className="w-full bg-white py-14 overflow-hidden">
       <div className="w-full px-4 sm:px-6 lg:px-16">
