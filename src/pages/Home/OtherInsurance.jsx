@@ -16,6 +16,9 @@ import {
   FaShieldHeart,
 } from "react-icons/fa6";
 
+
+
+
 const otherInsurance = [
   { title: "Life", sub: "Insurance", icon: <FaShieldHeart />, link: "/insurances" },
   { title: "Health", sub: "Insurance", icon: <FaHeartPulse />, link: "/insurances" },
