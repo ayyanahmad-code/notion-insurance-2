@@ -4,7 +4,7 @@ import { FaHandshake, FaShieldAlt } from "react-icons/fa";
 
 /* logos */
 import future from "../images/partner/Future generali.webp";
-import hdfcErgo from "../images/partner/HDFC.Webp";
+import hdfcErgo from "../images/partner/HDFC.webp";
 import iciciPrudential from "../images/partner/ICICI Prudential.webp";
 import liberty from "../images/partner/liberty.webp";
 import maxLife from "../images/partner/Max life.webp";
