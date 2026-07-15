@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 import { FaHandshake } from "react-icons/fa";
 
 import future from "../../images/partner/Future generali.webp";
-import hdfcErgo from "../../images/partner/HDFC.Webp";
+import hdfcErgo from "../../images/partner/HDFC.webp";
 import iciciPrudential from "../../images/partner/ICICI Prudential.webp";
 import liberty from "../../images/partner/liberty.webp";
-import maxLife from "../../images/partner/Max life.webp";
+import maxLife from "../../images/partner/Max Life.webp";
 import national from "../../images/partner/National insurance.webp";
 import niva from "../../images/partner/Niva Bupa Health in.webp";
 import oriental from "../../images/partner/oriental.webp";
