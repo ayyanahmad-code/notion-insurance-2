@@ -14,7 +14,7 @@ import hdfcLife from "../../images/partner/HDFC life.avif";
 import United from "../../images/partner/United India.avif";
 import SBI from "../../images/partner/SBI General.avif";
 import raheja from "../../images/partner/raheja.avif";
-import Star from "../../images/partner/Star personal & Caring.avif";
+import Star from "../../images/partner/Star personal & caring.avif";
 import NewIndia from "../../images/partner/The new india assurance co.ltd.avif";
 
 
